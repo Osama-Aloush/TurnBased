@@ -1,5 +1,7 @@
 package com.turnbased.game;
 
+import static com.badlogic.gdx.graphics.g2d.Animation.*;
+
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
@@ -22,8 +24,7 @@ public class TurnBased extends Game {
 	private TextureAtlas player1Atlas;
 	private TextureAtlas player1AtlasX;
 	private TextureAtlas player2Atlas;
-	private Animation player1Animation;
-	private Animation player1AnimationX;
+	private Animation <TextureAtlas.AtlasRegion> player1Animation, player1Punch;
 	private Animation player2Animation;
 	private float stateTime;
 	private float moveTime;
@@ -43,11 +44,11 @@ public class TurnBased extends Game {
 	public void create() {
 		batch = new SpriteBatch();
 		player1Atlas = new TextureAtlas(Gdx.files.internal("kroy/kroy_run.atlas")); // Replace with your atlas file
-		player1AtlasX = new TextureAtlas(Gdx.files.internal("kroy/kroy_runningX.atlas")); // Replace with your atlas file
+		player1AtlasX = new TextureAtlas(Gdx.files.internal("kroy/kroy_punch.atlas")); // Replace with your atlas file
 		player2Atlas = new TextureAtlas(Gdx.files.internal("yato/yato.atlas")); // Replace with your atlas file
 
-		player1Animation = new Animation<TextureAtlas.AtlasRegion>(1f/24f, player1Atlas.getRegions()); // Adjust frame duration as needed
-		player1AnimationX = new Animation<>(1f/24f, player1Atlas.getRegions()); // Adjust frame duration as needed
+		player1Animation = new Animation<>(1f / 24f, player1Atlas.getRegions()); // Adjust frame duration as needed
+		player1Punch = new Animation<>(1f / 24f, player1AtlasX.getRegions()); // Adjust frame duration as needed
 		player2Animation = new Animation<>(1f/24f, player2Atlas.getRegions()); // Adjust frame duration as needed
 
 		player1Image = new Texture("kroy/kroy_idle.png"); // Replace with your player image file
@@ -125,10 +126,13 @@ public class TurnBased extends Game {
 					float x =  50 + (moveTime * 4);
 					//boolean flipped = false; // Flag to track if flip has occurred
 					if (x >= Gdx.graphics.getWidth() - 200) {
-						//frame = (TextureRegion) player1AnimationX.getKeyFrame(stateTime, true);
+
+						frame = new Sprite (player1Punch.getKeyFrame(stateTime, true));
+
+						//frame = new Sprite (player1Punch.getKeyFrame(stateTime, false));
 						//batch.draw(frame, x, 50);
 						moveTime += 2 ;
-						//x = (Gdx.graphics.getWidth() - 200);
+						//
 						frame.setFlip(true, false);
 						x =  (Gdx.graphics.getWidth() - 150) - (moveTime );
 
