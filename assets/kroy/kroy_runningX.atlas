@@ -1,0 +1,61 @@
+kroy_runningX.png
+size: 120, 123
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kroy_run0001
+  rotate: false
+  xy: 86, 1
+  size: 33, 39
+  orig: 41, 39
+  offset: 3, 0
+  index: -1
+kroy_run0003
+  rotate: false
+  xy: 1, 42
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0005
+  rotate: false
+  xy: 44, 42
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0007
+  rotate: false
+  xy: 1, 1
+  size: 41, 38
+  orig: 41, 39
+  offset: 0, 1
+  index: -1
+kroy_run0009
+  rotate: false
+  xy: 87, 42
+  size: 29, 39
+  orig: 41, 39
+  offset: 2, 0
+  index: -1
+kroy_run0011
+  rotate: false
+  xy: 1, 83
+  size: 40, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0013
+  rotate: false
+  xy: 43, 83
+  size: 37, 39
+  orig: 41, 39
+  offset: 2, 0
+  index: -1
+kroy_run0015
+  rotate: false
+  xy: 44, 1
+  size: 40, 38
+  orig: 41, 39
+  offset: 1, 1
+  index: -1

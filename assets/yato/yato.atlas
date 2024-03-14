@@ -1,0 +1,48 @@
+
+yato.png
+size: 512, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Yato_100-0
+  rotate: false
+  xy: 265, 6
+  size: 63, 39
+  orig: 63, 39
+  offset: 0, 0
+  index: -1
+Yato_100-1
+  rotate: false
+  xy: 2, 3
+  size: 64, 42
+  orig: 64, 42
+  offset: 0, 0
+  index: -1
+Yato_100-2
+  rotate: false
+  xy: 68, 2
+  size: 63, 43
+  orig: 63, 43
+  offset: 0, 0
+  index: -1
+Yato_100-3
+  rotate: false
+  xy: 330, 7
+  size: 64, 38
+  orig: 64, 38
+  offset: 0, 0
+  index: -1
+Yato_100-4
+  rotate: false
+  xy: 133, 4
+  size: 64, 41
+  orig: 64, 41
+  offset: 0, 0
+  index: -1
+Yato_100-5
+  rotate: false
+  xy: 199, 4
+  size: 64, 41
+  orig: 64, 41
+  offset: 0, 0
+  index: -1

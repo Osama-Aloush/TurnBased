@@ -1,0 +1,82 @@
+kroy_punch.png
+size: 49, 462
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kroy_punch0001
+  rotate: false
+  xy: 0, 0
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+kroy_punch0002
+  rotate: false
+  xy: 0, 42
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+kroy_punch0003
+  rotate: false
+  xy: 0, 84
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+kroy_punch0004
+  rotate: false
+  xy: 0, 126
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+kroy_punch0005
+  rotate: false
+  xy: 0, 168
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+kroy_punch0006
+  rotate: false
+  xy: 0, 210
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+kroy_punch0007
+  rotate: false
+  xy: 0, 252
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+kroy_punch0008
+  rotate: false
+  xy: 0, 294
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+kroy_punch0009
+  rotate: false
+  xy: 0, 336
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+kroy_punch0010
+  rotate: false
+  xy: 0, 378
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+kroy_punch0011
+  rotate: false
+  xy: 0, 420
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1

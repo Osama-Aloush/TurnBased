@@ -1,0 +1,118 @@
+kroy_run.png
+size: 246, 117
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kroy_run0001
+  rotate: false
+  xy: 0, 0
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0002
+  rotate: false
+  xy: 41, 0
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0003
+  rotate: false
+  xy: 82, 0
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0004
+  rotate: false
+  xy: 123, 0
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0005
+  rotate: false
+  xy: 164, 0
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0006
+  rotate: false
+  xy: 205, 0
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0007
+  rotate: false
+  xy: 0, 39
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0008
+  rotate: false
+  xy: 41, 39
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0009
+  rotate: false
+  xy: 82, 39
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0010
+  rotate: false
+  xy: 123, 39
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0011
+  rotate: false
+  xy: 164, 39
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0012
+  rotate: false
+  xy: 205, 39
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0013
+  rotate: false
+  xy: 0, 78
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0014
+  rotate: false
+  xy: 41, 78
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0015
+  rotate: false
+  xy: 82, 78
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+kroy_run0016
+  rotate: false
+  xy: 123, 78
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+
