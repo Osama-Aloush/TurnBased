@@ -13,9 +13,15 @@ import java.util.Random;
 
 public class GameRenderer implements Disposable {
 
-    private SpriteBatch batch;
 
-    private BitmapFont font = new BitmapFont();;
+
+    public SpriteBatch getBatch() {
+        return batch;
+    }
+
+    public static SpriteBatch batch;
+
+    public static BitmapFont font = new BitmapFont();;
     public static float stateTime;
     public static float moveTime;
     public static boolean showPlayer1Image = true;
@@ -32,11 +38,11 @@ public class GameRenderer implements Disposable {
 
 
     public GameRenderer(SpriteBatch batch, BitmapFont font) {
-        this.batch = batch;
-        this.font = font;
+        GameRenderer.batch = batch;
+        GameRenderer.font = font;
     }
 
-    public void render() {
+    public void render(float delta) {
         stateTime += Gdx.graphics.getDeltaTime();
 
         clearScreen();
